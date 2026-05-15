@@ -1,9 +1,8 @@
 //configuration de la base de donnee
 $host = 'localhost';
-$dbname = 'votre_base_de_donnees';
-$user = 'votre_utilisateur';
-$pass = 'votre_mot_de_passe';
-$email = 'votre_email';
+$dbname = 'ma_base';
+$user = 'root';
+$pass = '';
 try{
 
     // 1. connexion a la base de votre base de donnees
