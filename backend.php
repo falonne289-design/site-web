@@ -23,7 +23,7 @@ $mot de passe = htmlspecialchars($_POST['mot de passe'], PASSWORD_DEFAULT);
 $article =>htmlcpecialchars($_POST['id']); //c est le name dans mon <select>
 
 // 4. recuperation de l requete SQL(protection contre les injections SQL)
-$sql = "INSERT INTO client (nom, numero, email, age, mot_de_passe,article_choisi)"; VALUES (?, ?, ?,?,?,?);
+$sql = "INSERT INTO utilisateurs(nom, numero, email, age, mot_de_passe,article_choisi)"; VALUES (?, ?, ?,?,?,?);
 $stmt = $pdo->prepare($sql);
 
 // 5. execution
