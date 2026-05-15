@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE DE VENTE DE VETEMENTS EN LIGNE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>BIENVENUE SUR MON SITE ET METTEZ VOUS A L AISE</H1>
+    
+    <P1>Nous faisons dans la vente des vetements, chaussures , bijoux, sacs a main et autre ....</P1>
+    <ol>
+        <li>chaussures</li>
+        <li>habit</li>
+        <li>sac a main</li>
+        <li>bijoux</li>
+    </ol>
+    <form method="POST" action="/submit">
+    <section> Veiller proceder a votre enregistrement</section><br>
+    Noms : <input type ="text" name="nom et prenom" required><br></br>
+    Numero : <input type ="tel"  name="numero de telephone" placeholder="+237677880456" required><br></br>
+    Email : <input type ="email" name="email " placeholder="exemple@gmail.com" required><br></br>  
+    Age : <input type ="number"  name ="age" min ="10" max="120" step="1"><br><br>
+    mot de passe :<input type="password" name="mot de passe" required><br></br>
+    
+    Que souhaitez-vous ? <select name="id" required>
+<option value="">chaussures</option>
+<option value="">pantalons</option>
+<option value="">sac a main</option>
+<option value="">vetement homme</option>
+<option value="">hahit dame</option>
+
+    </select>
+  <br> <br> <input type="submit"><br></br>
+  </form>
+    
+</body>
+</html>
