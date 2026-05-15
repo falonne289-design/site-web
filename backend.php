@@ -2,8 +2,8 @@
 // configuration de la base de donnee
 $host = 'localhost';
 $dbname = 'ma_base';
-$user = 'root';
-$pass = 'falonne237';
+$user = 'Falonne';
+$pass = 'Falonne@1234';
 
 try {
 
